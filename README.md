@@ -1,12 +1,36 @@
-# React + Vite
+# 🍿 Netflix Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Modern ve mobil uyumlu bir Netflix klonu!  
+React.js + Firebase ile yapılmış, kullanıcı oturum yönetimi, film listeleri ve detay sayfalarıyla gerçek Netflix hissiyatını yaşatır.
 
-Currently, two official plugins are available:
+## 🔗 Canlı Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 pamodora-rgyc.vercel.app
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## 🛠️ Kullanılan Teknolojiler
+
+- ⚛️ React.js (useEffect, useState, React Router)
+- 🔐 Firebase Authentication (Email/Password login)
+- ☁️ Firebase Hosting veya Vercel
+- 🎞️ The Movie Database (TMDB) API
+- 💅 Styled Components / Tailwind CSS / SCSS *(kullandığına göre düzenlenir)*
+- 📦 Axios ile API istekleri
+
+## ⚙️ Özellikler
+
+- 👤 Kullanıcı girişi ve kaydı (Firebase Auth)
+- 🎬 Popüler filmler & diziler listelenir (TMDB API)
+- 🔍 Film/dizi arama özelliği
+- 💖 "Benim Listem" → kullanıcıya özel kaydetme
+- 🌙 Dark mode / responsive tasarım
+- 🎥 Fragman açılabiliyor (YouTube embed opsiyonu)
+
+## 🚀 Kurulum
+
+```bash
+git clone https://github.com/kullaniciadi/netflix-clone.git
+cd netflix-clone
+npm install
+npm run dev
