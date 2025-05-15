@@ -5,7 +5,7 @@ React.js + Firebase ile yapılmış, kullanıcı oturum yönetimi, film listeler
 
 ## 🔗 Canlı Demo
 
-👉 pamodora-rgyc.vercel.app
+👉 https://pamodora-rgyc.vercel.app/
 
 
 
